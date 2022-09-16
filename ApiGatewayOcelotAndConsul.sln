@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{83E6227D-4170-41A5-966A-FB0FFCC24C5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecastService", "WeatherForecastService\WeatherForecastService.csproj", "{6AEEE7BB-E8A5-4D8E-8F8C-47157E93F358}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{E4D35670-84BE-4F0C-8AFA-CE7943C789F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AEEE7BB-E8A5-4D8E-8F8C-47157E93F358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AEEE7BB-E8A5-4D8E-8F8C-47157E93F358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AEEE7BB-E8A5-4D8E-8F8C-47157E93F358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AEEE7BB-E8A5-4D8E-8F8C-47157E93F358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D35670-84BE-4F0C-8AFA-CE7943C789F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D35670-84BE-4F0C-8AFA-CE7943C789F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D35670-84BE-4F0C-8AFA-CE7943C789F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D35670-84BE-4F0C-8AFA-CE7943C789F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6AEEE7BB-E8A5-4D8E-8F8C-47157E93F358} = {83E6227D-4170-41A5-966A-FB0FFCC24C5F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0049B217-EDFE-4FAE-AB0D-891D417FA4D1}
+	EndGlobalSection
+EndGlobal
