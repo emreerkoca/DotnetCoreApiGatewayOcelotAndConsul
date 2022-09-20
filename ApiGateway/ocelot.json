@@ -2,7 +2,7 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/WeatherForecast",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "UpstreamPathTemplate": "/weather",
       "UpstreamHttpMethod": [ "Get" ],
       "ServiceName": "WeatherForecastService",
